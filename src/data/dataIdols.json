@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Black Pink",
+    "img": "./img/black-pink.jpg",
+    "yearDebut": "2010",
+    "like": 100,
+    "active": true
+  },
+  {
+    "id": 2,
+    "name": "2PM",
+    "img": "./img/2PM.jpg",
+    "yearDebut": "2010",
+    "like": 100,
+    "active": false
+  },
+  {
+    "id": 3,
+    "name": "Big Bang",
+    "img": "./img/bigbang.jpg",
+    "yearDebut": "2010",
+    "like": 100,
+    "active": false
+  },
+  {
+    "id": 4,
+    "name": "BTS",
+    "img": "./img/black-pink.jpg",
+    "yearDebut": "2010",
+    "like": 100,
+    "active": false
+  },
+  {
+    "id": 5,
+    "name": "EXO",
+    "img": "./img/exo.jpg",
+    "yearDebut": "2010",
+    "like": 100,
+    "active": false
+  },
+  {
+    "id": 6,
+    "name": "Momoland",
+    "img": "./img/momoland.jpg",
+    "yearDebut": "2010",
+    "like": 100,
+    "active": false
+  },
+  {
+    "id": 7,
+    "name": "SNSD",
+    "img": "./img/snsd.jpg",
+    "yearDebut": "2010",
+    "like": 100,
+    "active": false
+  },
+  {
+    "id": 8,
+    "name": "Twice",
+    "img": "./img/twice.jpg",
+    "yearDebut": "2010",
+    "like": 100,
+    "active": false
+  }
+]
