@@ -1,25 +1,28 @@
 import React, { Component } from "react";
+import IdolListProvider from "../context/_Provider/IdolListProvider";
 import IdolList from "./IdolList";
 import ProfileIdol from "./ProfileIdol";
 
 export default class ContextIdolList extends Component {
   render() {
     return (
-      <div
-        className="music"
-        style={{
-          backgroundImage: "url(./img/bgMusic.jpg)",
-        }}
-      >
+      <IdolListProvider>
         <div
+          className="container-fluid"
           style={{
-            backgroundColor: "rgba(0,0,0, 0.6)",
+            backgroundImage: "url(./img/bgMusic.jpg)",
           }}
         >
-          <ProfileIdol />
-          <IdolList />
+          <div
+            style={{
+              backgroundColor: "rgba(0,0,0, 0.6)",
+            }}
+          >
+            <ProfileIdol />
+            <IdolList />
+          </div>
         </div>
-      </div>
+      </IdolListProvider>
     );
   }
 }
